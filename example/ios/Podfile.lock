@@ -1,15 +1,40 @@
 PODS:
+  - Braintree/ApplePay (6.39.0):
+    - Braintree/Core
+  - Braintree/Card (6.39.0):
+    - Braintree/Core
+  - Braintree/Core (6.39.0)
+  - Braintree/DataCollector (6.39.0):
+    - Braintree/Core
+  - Braintree/PayPal (6.39.0):
+    - Braintree/Core
+    - Braintree/DataCollector
   - Flutter (1.0.0)
+  - flutter_braintree (1.0.0):
+    - Braintree/ApplePay (= 6.39.0)
+    - Braintree/Card (= 6.39.0)
+    - Braintree/Core (= 6.39.0)
+    - Braintree/PayPal (= 6.39.0)
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_braintree (from `.symlinks/plugins/flutter_braintree/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Braintree
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_braintree:
+    :path: ".symlinks/plugins/flutter_braintree/ios"
 
 SPEC CHECKSUMS:
+  Braintree: f4114b1c4c76aaa921830babb49a86f08dedf3f9
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_braintree: cb1c368debc2c092749be2fcd3659876ddb63ed9
 
 PODFILE CHECKSUM: 775997f741c536251164e3eacf6e34abf2eb7a17
 
